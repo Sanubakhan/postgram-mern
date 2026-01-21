@@ -1,45 +1,38 @@
-📸 Postgram — Instagram-like Social Media App (MERN)
+Postgram — Instagram-like Social Media App (MERN)
 
 Postgram is a full-stack social media application inspired by Instagram, built using the MERN stack.
-Users can create profiles, upload image posts, view a feed, like posts, and manage their own profiles through a clean, mobile-first interface.
+Users can create a profile, upload image posts, view a public feed, like posts, and manage their own profile in a clean, mobile-first UI.
+The main focus of this project is backend logic, database relationships, and authentication, not just copying the UI.
 
-This project focuses on real backend logic, database relationships, and authentication, rather than just UI cloning.
+Features
+-User authentication (Register / Login)
+-Create and edit user profiles
+-Upload image posts with captions
+-Home feed displaying posts from users
+-Like / Unlike posts
+-Profile page with posts grid
+-Edit profile (avatar, username, bio)
+-Responsive, mobile-style interface
+-REST APIs with proper routes and controllers
 
-✨ Features
+Tech Stack
 
-User authentication (Register / Login)
-
-Create and edit user profiles
-
-Upload image posts with captions
-
-Home feed showing posts from users
-
-Like / Unlike posts
-
-Profile page with posts grid
-
-Edit profile (avatar, username, bio)
-
-Responsive, mobile-style UI
-
-REST API with proper controllers and routes
-
-🛠️ Tech Stack
 
 Frontend
-React (Vite)
-Tailwind CSS
-React Router
-Axios
+-React (Vite)
+-Tailwind CSS
+-React Router
+-Axios
 
 Backend
-Node.js
-Express.js
-MongoDB & Mongoose
-JWT Authentication
-Multer (for image handling)
+-Node.js
+-Express.js
+-MongoDB & Mongoose
+-JWT Authentication
+-Multer (for image handling)
 
+
+Project Structure
 Postgram/
 ├── backend/
 │   ├── controllers/
@@ -57,51 +50,41 @@ Postgram/
 │   │   └── main.jsx
 │   └── vite.config.js
 
+
 Authentication Flow
+-JWT-based authentication
+-Protected routes for creating posts and editing profiles
+-Auth middleware applied on backend routes
+-Cookies used for session handling
 
-JWT-based authentication
+What I Learned
+-Designing REST APIs properly
+-Managing MongoDB relationships between users, profiles, and posts
+-Authentication & authorization in a real project
+-Handling image uploads and image URLs
+-Connecting frontend and backend smoothly
+-Debugging real-world issues (not tutorial-perfect apps)
 
-Protected routes for creating posts and editing profiles
+Known Limitations / Future Improvements
+-Profile and feed syncing can be improved
+-Comments feature can be added
+-Follow / Unfollow system
+-Better loaders and error handling
+-Deployment improvements
 
-Auth middleware used on backend routes
+How to Run Locally
 
-Cookies used for session handling
-
-🧠 What I Learned
-Designing REST APIs properly
-MongoDB relationships between users, profiles, and posts
-Authentication & authorization in real projects
-Handling file uploads and image URLs
-Managing frontend + backend integration
-Debugging real-world issues (not tutorial-perfect apps)
-
-🚧 Known Limitations / Future Improvements
-Profile-feed data syncing can be improved
-Comments feature can be added
-Follow / Unfollow system
-Better error handling and loaders
-Deployment improvements
-
-(This project is actively improvable and intentionally left open for enhancements.)
-
-▶️ How to Run Locally
 Backend
-cd backend
-npm install
-npm run dev
-
-
-Create a .env file:
-PORT=3000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret_key
+-cd backend
+-npm install
+-npm run dev
 
 Frontend
-cd frontend
-npm install
-npm run dev
+-cd frontend
+-npm install
+-npm run dev
 
--> Author
+Author-
 Sanuba Khan
 Web Developer | MERN Stack
 Built as a learning-focused full-stack project.
