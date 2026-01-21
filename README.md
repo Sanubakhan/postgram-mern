@@ -31,26 +31,6 @@ Backend
 -JWT Authentication
 -Multer (for image handling)
 
-
-Project Structure
-Postgram/
-├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   ├── server.js
-│   └── .env
-│
-├── frontend/
-│   ├── src/
-│   │   ├── pages/
-│   │   ├── components/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── vite.config.js
-
-
 Authentication Flow
 -JWT-based authentication
 -Protected routes for creating posts and editing profiles
